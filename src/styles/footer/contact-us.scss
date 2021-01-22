@@ -33,8 +33,13 @@ $longest-text-contact-us: 362px;
     font-weight: 600;
     line-height: 36px;
     text-align: left;
-
+    white-space: nowrap;
     margin-bottom: 48px;
+
+    &:hover,
+    &:focus {
+      color: #2060f6;
+    }
   }
 
   &__links {

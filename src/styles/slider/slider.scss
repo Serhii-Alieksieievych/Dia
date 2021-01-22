@@ -62,13 +62,21 @@
   }
 
   &__demo {
-    background-image: url(../images/slider/slide-img-1.jpg);
     background-size: cover;
     height: 42.5vw;
     max-height: 680px;
     width: 42.94vw;
     max-width: 687px;
     border-radius: $radius 0 $radius 0;
+    &--0 {
+      background-image: url(../images/slider/slide-img-1.jpg);
+    }
+    &--1 {
+      background-image: url(../images/slider/slide-img-2.jpg);
+    }
+    &--2 {
+      background-image: url(../images/slider/slide-img-3.jpg);
+    }
   }
 
   &__menu {
